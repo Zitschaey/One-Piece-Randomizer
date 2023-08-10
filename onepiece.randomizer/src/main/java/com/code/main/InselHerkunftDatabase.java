@@ -1,4 +1,4 @@
-package com.code.test.main.run;
+package com.code.main;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,7 +28,7 @@ public class InselHerkunftDatabase {
 					new InselHerkunft("Baltigo", "New World", "Revolutionary Army-Territorium"),
 					new InselHerkunft("Elban", "Grand Line", "Paradise")));
 
-	public InselHerkunft getTeufelsfruchtByName(String name) {
+	public InselHerkunft getInselByName(String name) {
 
 		
 		for (InselHerkunft insel : inselListe) {
@@ -42,7 +42,7 @@ public class InselHerkunftDatabase {
 
 	}
 
-	public InselHerkunft getTeufelsfruchtRandom() {
+	public InselHerkunft getInselRandom() {
 		Random randomNumber = new Random();
 		return inselListe.get(randomNumber.nextInt(inselListe.size()));
 

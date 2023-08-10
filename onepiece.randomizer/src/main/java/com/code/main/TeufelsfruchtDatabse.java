@@ -1,4 +1,4 @@
-package com.code.test.main.run;
+package com.code.main;
 
 import java.util.ArrayList;
 import java.util.Arrays;

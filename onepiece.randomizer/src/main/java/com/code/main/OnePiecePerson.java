@@ -1,4 +1,4 @@
-package com.code.test.main.run;
+package com.code.main;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -17,7 +17,7 @@ public class OnePiecePerson {
 	public OnePiecePerson() {
 		super();
 		this.teufelsfrucht = new TeufelsfruchtDatabse().getTeufelsfruchtRandom();
-		this.insel = new InselHerkunftDatabase().getTeufelsfruchtRandom() ;
+		this.insel = new InselHerkunftDatabase().getInselRandom() ;
 	}
 
 	

@@ -1,4 +1,4 @@
-package com.code.test.main.run;
+package com.code.main;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
